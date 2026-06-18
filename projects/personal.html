@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Talia Having Fun – Talia Novella</title>
+  <meta name="description" content="Personal work – Talia Novella." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css?v=17" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html">Talia&nbsp;Novella | Content &amp; Social Media Manager</a>
+    <nav class="nav">
+      <a href="../index.html#work">Work</a>
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="project-hero">
+      <a class="back-link" href="../index.html#work">← Back to work</a>
+      <h1>@taliahavingfun</h1>
+      <p class="intro muted">A personal collection – the work I make just because I love it.</p>
+    </section>
+
+    <section class="media-grid">
+      <figure><video controls playsinline preload="metadata" poster="../images/personal/poster-5.jpg" src="../videos/personal/clip-5.mp4"></video></figure>
+      <figure><video controls playsinline preload="metadata" poster="../images/personal/poster-6.jpg" src="../videos/personal/clip-6.mp4"></video></figure>
+      <figure><video controls playsinline preload="metadata" poster="../images/personal/poster-1.jpg" src="../videos/personal/clip-1.mp4"></video></figure>
+      <figure><video controls playsinline preload="metadata" poster="../images/personal/poster-4.jpg" src="../videos/personal/clip-4.mp4"></video></figure>
+      <figure><video controls playsinline preload="metadata" poster="../images/personal/poster-2.jpg" src="../videos/personal/clip-2.mp4"></video></figure>
+      <figure><video controls playsinline preload="metadata" poster="../images/personal/poster-3.jpg" src="../videos/personal/clip-3.mp4"></video></figure>
+    </section>
+
+    <section class="carousel-section">
+      <h2>Have a scroll:</h2>
+      <div class="carousel">
+        <div class="carousel__track">
+          <div class="carousel__slide"><img src="../images/personal/sq-1.jpg?v=2" alt="Talia Having Fun" loading="lazy" /></div>
+          <div class="carousel__slide"><img src="../images/personal/sq-6.jpg?v=2" alt="Talia Having Fun" loading="lazy" /></div>
+          <div class="carousel__slide"><img src="../images/personal/sq-5.jpg?v=2" alt="Talia Having Fun" loading="lazy" /></div>
+          <div class="carousel__slide"><img src="../images/personal/sq-8.jpg" alt="Talia Having Fun" loading="lazy" /></div>
+          <div class="carousel__slide"><img src="../images/personal/sq-2.jpg?v=2" alt="Talia Having Fun" loading="lazy" /></div>
+          <div class="carousel__slide"><img src="../images/personal/sq-3.jpg?v=2" alt="Talia Having Fun" loading="lazy" /></div>
+          <div class="carousel__slide"><img src="../images/personal/sq-4.jpg?v=2" alt="Talia Having Fun" loading="lazy" /></div>
+          <div class="carousel__slide"><img src="../images/personal/sq-7.jpg" alt="Talia Having Fun" loading="lazy" /></div>
+          <div class="carousel__slide"><img src="../images/personal/sq-9.jpg" alt="Talia Having Fun" loading="lazy" /></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Talia Novella</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="../carousel.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fitting Room – Talia Novella</title>
+  <meta name="description" content="Fitting Room – a project by Talia Novella." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css?v=17" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html">Talia&nbsp;Novella | Content &amp; Social Media Manager</a>
+    <nav class="nav">
+      <a href="../index.html#work">Work</a>
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="project-hero">
+      <a class="back-link" href="../index.html#work">← Back to work</a>
+      <h1>Fitting Room</h1>
+      <p class="intro muted">Aliverti Fitting Room grew out of a simple goal: create content people
+        actually want to watch. Rather than lead with product, we built a styling-led video series that
+        feels like advice from a friend – relatable, low-key, and genuinely useful. From "How to Style a
+        Navy T-Shirt" to "Three Looks, One Day," each episode lets the brand connect without ever feeling
+        like an ad.</p>
+      <div class="credits">
+        <div><strong>Concept, styling, editing &amp; videography:</strong> Gabriella Aliverti &amp; Talia Novella</div>
+      </div>
+    </section>
+
+    <section class="reel-row">
+      <figure><video controls preload="metadata" poster="../images/fitting-room/poster-1.jpg" src="../videos/fitting-room/clip-1.mp4"></video></figure>
+      <figure><video controls preload="metadata" poster="../images/fitting-room/poster-3.jpg" src="../videos/fitting-room/clip-3.mp4"></video></figure>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Talia Novella</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

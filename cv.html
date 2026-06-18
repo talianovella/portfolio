@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Talia Novella – CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root { --ink: #4a2e20; --muted: #6b4a36; --line: #e3c9c0; --accent: #4a2e20; --blush: #f5e4df; }
+    * { box-sizing: border-box; }
+    @page { size: A4; margin: 14mm 15mm; }
+    html, body { margin: 0; padding: 0; }
+    body { font-family: Helvetica, "Helvetica Neue", Arial, sans-serif; color: var(--ink); font-size: 10.2pt; line-height: 1.5; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    h1, h2, h3 { font-family: Helvetica, "Helvetica Neue", Arial, sans-serif; margin: 0; line-height: 1.05; font-weight: 600; }
+    .muted { color: var(--muted); }
+
+    /* Header */
+    header { border-bottom: 2px solid var(--line); padding-bottom: 10px; margin-bottom: 14px; }
+    h1 { font-size: 30pt; letter-spacing: .5px; }
+    .role { font-family: Helvetica, "Helvetica Neue", Arial, sans-serif; font-size: 14pt; color: var(--accent); margin-top: 2px; }
+    .contact { margin-top: 7px; font-size: 9pt; color: var(--muted); }
+    .contact span { white-space: nowrap; }
+
+    .bio { max-width: 100%; margin: 0 0 16px; }
+
+    /* Section headings */
+    h2 { font-size: 14pt; margin-bottom: 7px; padding-bottom: 3px; border-bottom: 1px solid var(--line); }
+
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; margin-bottom: 14px; }
+
+    .item { margin-bottom: 9px; }
+    .item .role-line { font-weight: 500; }
+    .item .meta { color: var(--muted); font-size: 8.6pt; }
+    .item p { margin: 2px 0 0; font-size: 9pt; color: var(--muted); }
+
+    ul.plain { list-style: none; margin: 0; padding: 0; }
+    ul.plain li { padding: 3px 0; border-bottom: 1px solid var(--line); font-size: 9.4pt; }
+    ul.plain li:last-child { border-bottom: none; }
+
+    .chips { display: flex; flex-wrap: wrap; gap: 5px; margin: 0 0 8px; padding: 0; list-style: none; }
+    .chips li { background: var(--blush); border: 1px solid var(--line); border-radius: 999px; padding: 3px 9px; font-size: 8.6pt; }
+    .sub-label { text-transform: uppercase; letter-spacing: .1em; font-size: 7.6pt; font-weight: 500; color: var(--muted); margin: 6px 0 5px; }
+    p.tight { margin: 0; font-size: 9.4pt; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Talia Novella</h1>
+    <div class="role">Content &amp; Social Media Manager</div>
+    <div class="contact">
+      <span>talianovella@gmail.com</span> &nbsp;·&nbsp;
+      <span>Cape Town, South Africa</span> &nbsp;·&nbsp;
+      <span>@taliahavingfun</span>
+    </div>
+  </header>
+
+  <p class="bio">A creative with an affinity for the art of online storytelling. I am passionate about
+    creating organic content that doesn't feel like advertising – content that's easy to watch and
+    engage with, and that helps brands connect with their audience in an authentic way. I believe that
+    social media is the very foundation of building that connection between brands and their community.</p>
+
+  <div class="grid2">
+    <section>
+      <h2>Experience</h2>
+      <div class="item">
+        <div class="role-line">Content Manager · Aliverti</div>
+        <div class="meta">02/2023 – Present · Cape Town</div>
+        <p>Manage Aliverti's social media presence; shoot, write and create content for the website and
+          brand; run the online Shopify platform.</p>
+      </div>
+      <div class="item">
+        <div class="role-line">Social Media Manager (Freelance) · Eats of Ally</div>
+        <div class="meta">2025 · Freelance</div>
+        <p>Food &amp; lifestyle content creation for social.</p>
+      </div>
+      <div class="item">
+        <div class="role-line">Social Media Manager (Volunteer) · Bulungula Ecolodge</div>
+        <div class="meta">12/2022 – 01/2023 · Eastern Cape</div>
+        <p>Community-run backpackers on the rural Bulungula coastline.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="item">
+        <div class="role-line">Honours in Media Theory &amp; Practice</div>
+        <div class="meta">University of Cape Town · 2021 · GPA 73.7%</div>
+      </div>
+      <div class="item">
+        <div class="role-line">BA in Media &amp; Writing and Sociology</div>
+        <div class="meta">University of Cape Town · 2018–2020 · Dean's Merit List</div>
+      </div>
+      <div class="item">
+        <div class="role-line">Commis Chef Course</div>
+        <div class="meta">Silwood School of Cookery · 02/2024 – 11/2024</div>
+      </div>
+      <div class="item">
+        <div class="role-line">Digital Marketing Course</div>
+        <div class="meta">Red &amp; Yellow · 2022</div>
+      </div>
+      <div class="item">
+        <div class="role-line">Foundation in Design Thinking</div>
+        <div class="meta">Hasso Plattner School of Design Thinking, UCT · 2022</div>
+      </div>
+      <div class="item">
+        <div class="role-line">Matric</div>
+        <div class="meta">Rustenburg High School for Girls · 2013–2017 · GPA 82%</div>
+      </div>
+    </section>
+  </div>
+
+  <div class="grid2">
+    <section>
+      <h2>Skills</h2>
+      <ul class="chips">
+        <li>Editing</li>
+        <li>Campaign concept development</li>
+        <li>Photography</li>
+        <li>iPhone videography</li>
+        <li>Styling</li>
+        <li>Social media management</li>
+      </ul>
+      <div class="sub-label">Tools</div>
+      <ul class="chips">
+        <li>Canva</li>
+        <li>CapCut</li>
+        <li>Meta</li>
+        <li>Shopify</li>
+        <li>Photoshop</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Languages</h2>
+      <ul class="plain">
+        <li>English – Full Professional Proficiency</li>
+        <li>Afrikaans – Limited Working Proficiency</li>
+        <li>French – A2.3 · Still advancing</li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="grid2">
+    <section>
+      <h2>Achievements</h2>
+      <ul class="plain">
+        <li>Silwood School of Cookery – Award of Excellence (2024)</li>
+        <li>Dean's Merit List, University of Cape Town (2019)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Interests</h2>
+      <p class="tight">Cooking and baking, keeping active, reading, spending time with friends, and
+        travel – with a particular love for France.</p>
+    </section>
+  </div>
+</body>
+</html>

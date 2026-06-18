@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karoo Kollection – Talia Novella</title>
+  <meta name="description" content="Karoo Kollection – a project by Talia Novella." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css?v=17" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html">Talia&nbsp;Novella | Content &amp; Social Media Manager</a>
+    <nav class="nav">
+      <a href="../index.html#work">Work</a>
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="project-hero">
+      <a class="back-link" href="../index.html#work">← Back to work</a>
+      <h1>The Karoo Kollection</h1>
+      <p class="intro muted">The Karoo Kollection is a celebration of handmade Italian leather boots.
+        The boots carried a distinctly Western feel, and we wanted to honour that while keeping the shoot
+        unmistakably South African – which is where the Karoo came in. The result plays with raw, earthy
+        textures: terracotta pots, sand, dried grasses, and warm natural tones that bridge the rugged
+        American West with the South African landscape.</p>
+      <div class="credits">
+        <div><strong>Concept, styling &amp; editing:</strong> Talia Novella &amp; Gabriella Aliverti</div>
+      </div>
+    </section>
+
+    <section class="media-grid">
+      <figure><img src="../images/karoo-kollection/199A4666.jpg" alt="Karoo Kollection" loading="lazy" /></figure>
+      <figure><img src="../images/karoo-kollection/199A476697.jpg" alt="Karoo Kollection" loading="lazy" /></figure>
+      <figure><img src="../images/karoo-kollection/199A4584.jpg" alt="Karoo Kollection" loading="lazy" /></figure>
+      <figure><img src="../images/karoo-kollection/199A88884939.jpg" alt="Karoo Kollection" loading="lazy" /></figure>
+      <figure><img src="../images/karoo-kollection/199A458871.jpg" alt="Karoo Kollection" loading="lazy" /></figure>
+      <figure><img src="../images/karoo-kollection/199A4836%20(1).jpg" alt="Karoo Kollection" loading="lazy" /></figure>
+    </section>
+
+    <section class="carousel-section">
+      <h2>Have a scroll:</h2>
+      <div class="carousel">
+        <div class="carousel__track">
+          <div class="carousel__slide"><video controls playsinline preload="metadata" src="../videos/karoo-kollection/clip-1.mp4"></video></div>
+          <div class="carousel__slide"><video controls playsinline preload="metadata" src="../videos/karoo-kollection/clip-2.mp4"></video></div>
+          <div class="carousel__slide"><video controls playsinline preload="metadata" src="../videos/karoo-kollection/clip-3.mp4"></video></div>
+          <div class="carousel__slide"><video controls playsinline preload="metadata" src="../videos/karoo-kollection/clip-4.mp4"></video></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="carousel-section">
+      <h2>Window Installation</h2>
+      <div class="media-grid" style="max-width: none; padding: 0; margin-top: 1.5rem; grid-template-columns: repeat(auto-fill, minmax(180px, 220px));">
+        <figure><video controls playsinline preload="metadata" src="../videos/karoo-kollection/window-1.mp4"></video></figure>
+        <figure><video controls playsinline preload="metadata" src="../videos/karoo-kollection/window-2.mp4"></video></figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Talia Novella</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="../carousel.js"></script>
+</body>
+</html>
